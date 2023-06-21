@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace tpHelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            HelloWorld();
+        }
+        static void HelloWorld()
+        {
+            Console.WriteLine("Hello World!");
+            Console.ReadLine();
+            Console.WriteLine("Merci de saisir votre nom");
+            string nom = Console.ReadLine();
+            string reponse = "hello " + nom;
+            Console.WriteLine(reponse);
+        }
+
+    }
+}
